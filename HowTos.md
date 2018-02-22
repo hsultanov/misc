@@ -1,4 +1,4 @@
-#How-Tos for Deep Nets and Python 
+# How-Tos for Deep Nets and Python 
 
 
 1. [Generate altered images](./python/genImages.py) from a collection of images using Keras's ImageGenerator 
