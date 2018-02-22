@@ -1,3 +1,3 @@
 # misc
-Readme - refer to [HowTos.md](HowTos.md)
+Readme - refer to Python Script ["how to"s ](HowTos.md)
 
