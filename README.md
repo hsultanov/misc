@@ -1,2 +1,3 @@
 # misc
-Reame - refer to HowTos.md
+Readme - refer to HowTos.md [./HowTos.md]
+
