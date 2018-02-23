@@ -1,0 +1,38 @@
+<annotation>
+	<folder>collection01_combined</folder>
+	<filename>057_female.jpg</filename>
+	<path>C:\_project\1710-01 MosquitoNet\App\images\collection01_combined\057_female.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>f-a</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>797</xmin>
+			<ymin>635</ymin>
+			<xmax>1058</xmax>
+			<ymax>835</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>f-b</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>286</xmin>
+			<ymin>377</ymin>
+			<xmax>1084</xmax>
+			<ymax>971</ymax>
+		</bndbox>
+	</object>
+</annotation>
