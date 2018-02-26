@@ -10,7 +10,7 @@ The main information on setting and running YOLO came from this [site](https://g
 
 Copy the content of the folder [./yolo](./yolo) locally. 
 
-Be sure to copy the initial [training weights](\\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\full_yolo_backend.h5) and [trained weights](\\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\mos_fm.h5) from the Kinemetrix server
+Be sure to copy the initial training weights at \\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\full_yolo_backend.h5 and trained weights at \\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\mos_fm.h5 from the Kinemetrix server
 
 ## Config
 
@@ -33,7 +33,14 @@ Please note for training YOLO on windows the path for training folders looks the
 
     "train_image_folder":   "C:/_project/1710-01 MosquitoNet/App/AI/yolo/data/img/",
     "train_annot_folder":   "C:/_project/1710-01 MosquitoNet/App/AI/yolo/data/ann/", 
+
 ## Train
+
+Under Linux run the bash script trainNet.sh 
+
+<p align="center">
+  <img src=".\Images\run_train_script.jpg" width="350"/>  
+</p>
 
 
 
