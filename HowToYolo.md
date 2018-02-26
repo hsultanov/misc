@@ -39,7 +39,7 @@ Please note for training YOLO on windows the path for training folders looks the
 Under Linux run the bash script trainNet.sh 
 
 <p align="center">
-  <img src=".\Images\run_train_script.jpg" width="350"/>  
+  <img src=".\Images\run_train_script.jpg" width="500"/>  
 </p>
 
 
