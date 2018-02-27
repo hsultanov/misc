@@ -116,5 +116,5 @@ The results of the test run will be stored in two folders: "_detected" and "_fai
 
 
 <p align="center">
-  <img src=".\Images\img_result_folder.jpg"  width="500"/>  
+  <img src=".\Images\img_result_folders.jpg"  width="500"/>  
 </p> 
