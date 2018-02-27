@@ -10,7 +10,9 @@ The main information on setting and running YOLO came from this [site](https://g
 
 Copy the content of the folder [./yolo](./yolo) locally. 
 
-Be sure to copy the initial training weights at \\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\full_yolo_backend.h5 and trained weights at \\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\mos_fm.h5 from the Kinemetrix server
+Be sure to copy the initial training weights at 
+\\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\full_yolo_backend.h5 and trained weights at 
+\\metrix-fsrv-07\WORKING_DATA\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\YOLO\mos_fm.h5 from the Kinemetrix server
 
 ## Config
 
@@ -102,4 +104,12 @@ Also, at the end of the execution the script produces a confusion matrix:
   <img src=".\Images\confusion_matrix.jpg"  width="500"/>  
 </p>
 
-Where the rows indicate the 
+Where the rows indicate the classes of the files being tested, the columns indicate the classes assigned to the files. In case if the classifier could not assign a class, i.e., the highest result of the classification result was below the threshold, the image would be assigned under "unknown" category. 
+
+
+The log file for the prediction process will be stored at the "image folder"/logs/ subfolder:
+
+
+<p align="center">
+  <img src=".\Images\img_log_files.jpg"  width="500"/>  
+</p>
