@@ -106,10 +106,15 @@ Also, at the end of the execution the script produces a confusion matrix:
 
 Where the rows indicate the classes of the files being tested, the columns indicate the classes assigned to the files. In case if the classifier could not assign a class, i.e., the highest result of the classification result was below the threshold, the image would be assigned under "unknown" category. 
 
-
 The log file for the prediction process will be stored at the "image folder"/logs/ subfolder:
-
 
 <p align="center">
   <img src=".\Images\img_log_files.jpg"  width="500"/>  
 </p>
+
+The results of the test run will be stored in two folders: "_detected" and "_failed". The "_detected" folder contains images classified and labeled property; the "_failed" folder contains misclassified images. 
+
+
+<p align="center">
+  <img src=".\Images\img_result_folder.jpg"  width="500"/>  
+</p> 
