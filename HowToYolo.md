@@ -118,3 +118,37 @@ The results of the test run will be stored in two folders: "_detected" and "_fai
 <p align="center">
   <img src=".\Images\img_result_folders.jpg"  width="500"/>  
 </p> 
+
+### Trained Models
+
+"mos_mfj.h5"  -has been been trained on the collection of 3,000+ images
+the tar.gz archive is located here: 
+
+S:\Data\Job Files - Current\1710-01 MosquitoNET\02 - Engineering\03 - Classifier Development\Image_Sets\train_set_01
+
+The config file for the  training is [conf_ mfj _01.json](./yolo/conf_mfj_01.json):
+
+The script to train is as follows
+
+ 	python3 train.py -c conf_mfj_01.json
+
+Once the training been completed and mos_ mfj.h5 produced, we can create test the accuracy of the network against test collection of images using predict [fld_ stat_ set01.sh](./yolo/predict_fld_stat_set01) script.  The content of the bash script uses the trained weights
+
+	python3 predictfld-stat.py  -c conf_mfj_01.json -w mos_mfj.h5 -i ./data/test
+
+The confusion matrix obtained as result of training on 3K images looks like the following:
+ 
+        Confusion Matrix  
+	 - - - - -  Counts   - - - - - - - - - -
+	+             female      junk      male   unknown
+	female          34.0       2.0       0.0      13.0
+	junk             0.0      16.0       0.0       5.0
+	male             0.0       0.0      73.0      40.0
+	
+	 - - - - -  Percent  - - - - - - - - - -
+	+             female      junk      male   unknown
+	female        69.39%     4.08%     0.00%    26.53%
+	junk           0.00%    76.19%     0.00%    23.81%
+	male           0.00%     0.00%    64.60%    35.40%
+	
+	 - - - - -  - - - - - - -  - - - - - - -
