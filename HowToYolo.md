@@ -132,7 +132,7 @@ The script to train is as follows
 
  	python3 train.py -c conf_mfj_01.json
 
-Once the training been completed and mos_ mfj.h5 produced, we can create test the accuracy of the network against test collection of images using predict [fld_ stat_ set01.sh](./yolo/predict_fld_stat_set01) script.  The content of the bash script uses the trained weights
+Once the training been completed and mos_ mfj.h5 produced, we can create test the accuracy of the network against test collection of images using predict [fld_ stat_ set01.sh](./yolo/predict_fld_stat_set01.sh) script.  The content of the bash script uses the trained weights
 
 	python3 predictfld-stat.py  -c conf_mfj_01.json -w mos_mfj.h5 -i ./data/test
 
