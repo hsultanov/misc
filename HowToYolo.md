@@ -51,7 +51,7 @@ Under windows run command prompt, start a conda environment with Tensorflow and 
 
 ## View the Training in Tensorboard
 
-Take a look at the ["howto"](HowToTensorboard.md)file on starting and using tensorboard to monitor the training process. 
+Take a look at the ["howto"](HowToTensorboard.md) file on starting and using tensorboard to monitor the training process. 
 
 ## Run and Verify
 
